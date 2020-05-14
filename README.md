@@ -1,5 +1,5 @@
 # Class-Prioritization-for-Hyper-parameter-Tuning
-This is a replication package provided as an online appendix for the paper submitted in SBST 2020.
+This is a replication package provided as an online appendix for the paper submitted in ICSME 2020.
 
 # How to reproduce the experiments?
 In short, in order to reproduce the results, one can run EvoSuite on the classes that we experimented configuring the hyperparameters. The way the hyperparameters are configured are discribed in the EvoSuite Documentation available at http://www.evosuite.org/documentation/tutorial-part-1/.
