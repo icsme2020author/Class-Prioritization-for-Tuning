@@ -22,3 +22,6 @@ The results are all orgainzed in two excel files: AllData and AllResults.
 AllData includes the median number of covered branches of all studied classes.
 AllResults includes the summary of data like some statistical numbers.
 
+
+# How to tune?
+We use the Meta-GA method here in two ways globally and in class-level. Both cases are included in the folders.
