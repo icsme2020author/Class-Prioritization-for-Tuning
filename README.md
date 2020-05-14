@@ -6,7 +6,7 @@ In short, in order to reproduce the results, one can run EvoSuite on the classes
 
 So, we run the following command over and over around 12 million times with different classes, different projects and different configurations:
 
-java -jar evosuite-1.0.6.jar -target A.jar -class B -Dcrossover_rate=X -Dpopulation=%dX -Dselection_function=X -Dmutation_rate=X -Delite=X -Dparent_check=X
+java -jar evosuite-1.0.6.jar -target A.jar -class B -Dcrossover_rate=X -Dpopulation=X -Dselection_function=X -Dmutation_rate=X -Delite=X -Dparent_check=X
 
 however, in our case, as the experiment size is huge, and it takes around 10 years to rerun these experiments, we had to write some scripts to help us speed up the experiments using parallel computing.
 
