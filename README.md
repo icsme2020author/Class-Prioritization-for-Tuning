@@ -11,7 +11,7 @@ So, we run the following command over and over around 12 million times with diff
 
 however, in our case, as the experiment size is huge, and it takes around 10 years to rerun these experiments, we had to write some scripts to help us speed up the experiments using parallel computing.
 
-# How did we run these experiments in parralel?
+# How did we run these experiments in parallel?
 
 We used 3 clusters each provided us with many instances of up to 48 CPU nodes. We defined each task as indicated in the task folder. But this wasn't enough. We had to made the tasks in parralel more. So we used GNU parallel tool to help us both make tiny tasks parallel and keep track of them easily. GNU Parallel tool is a bash tool and more information about it is available at https://www.gnu.org/software/parallel/.
 
