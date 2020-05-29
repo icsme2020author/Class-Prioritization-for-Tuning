@@ -25,12 +25,3 @@ AllResults includes the summary of data like some statistical numbers.
 
 # How to tune?
 We use the Meta-GA method here in two ways globally and in class-level. Both cases are included in the folders.
-
-# Link to projects in use
-https://github.com/code4craft/webmagic
-https://github.com/apache/dubbo
-https://github.com/jhy/jsoup
-https://github.com/zxing/zxing
-https://github.com/square/okio
-https://github.com/alibaba/fastjson
-https://github.com/redisson/redisson
