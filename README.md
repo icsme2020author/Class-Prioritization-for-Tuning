@@ -25,3 +25,22 @@ AllResults includes the summary of data like some statistical numbers.
 
 # How to tune?
 We use the Meta-GA method here in two ways globally and in class-level. Both cases are included in the folders.
+
+# Top features
+
+- Top 2 featues: ['rfc' 'else']
+- Top 5 featues: ['else' 'rfc' 'Abstract Class Count' 'Difficulty' 'comparisonsQty']
+- Top 10 featues: ['Difficulty' 'rfc' 'Abstract Class Count' 'else' 'anonymousClassesQty'
+ 'comparisonsQty' 'Effort' 'class' 'do' 'stringLiteralsQty']
+- Top 20 featues: ['Abstract Class Count' 'rfc' 'Difficulty' 'else' 'comparisonsQty'
+ 'Effort' 'anonymousClassesQty' 'variablesQty' 'mathOperationsQty'
+ 'stringLiteralsQty' 'class' 'parenthesizedExpsQty' 'Vocabulary'
+ 'assignmentsQty' 'do' 'if' 'maxNestedBlocks' 'throws' 'import'
+ 'numbersQty']
+- Top 40 featues: ['rfc' 'Effort' 'else' 'Abstract Class Count' 'variablesQty'
+ 'mathOperationsQty' 'Difficulty' 'comparisonsQty' 'anonymousClassesQty'
+ 'parenthesizedExpsQty' 'stringLiteralsQty' 'assignmentsQty' 'if'
+ 'Vocabulary' 'nosi' 'maxNestedBlocks' 'numbersQty' 'Ce' 'Volume' 'class'
+ 'loc' 'wmc' 'interface' nan 'do' 'import' 'void' 'Program Length'
+ 'instanceof' 'throws' 'static' 'break' 'float' 'case' 'byte' 'double'
+ 'switch' 'new' 'short' 'totalMethods']
