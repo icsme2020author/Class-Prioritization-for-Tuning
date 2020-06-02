@@ -22,12 +22,13 @@ The results are all orgainzed in two excel files: AllData and AllResults.
 AllData includes the median number of covered branches of all studied classes.
 AllResults includes the summary of data like some statistical numbers.
 
-
 # How to tune?
-We use the Meta-GA method here in two ways globally and in class-level. Both cases are included in the folders.
+First, we have to rank the classes, then we use Meta-GA to tune the classes. We use the Meta-GA method here in two ways globally and in class-level. Both cases are included in the code folders, and you can see the differences in implementations there.
+
+# How did we calculate the top features?
+For all 100 train-test splits, we used RFE method to find the top X features, then we reported the two most repeated features in all test splits.
 
 # Top features
-
 - Top 2 featues: ['rfc' 'else']
 - Top 5 featues: ['else' 'rfc' 'Abstract Class Count' 'Difficulty' 'comparisonsQty']
 - Top 10 featues: ['Difficulty' 'rfc' 'Abstract Class Count' 'else' 'anonymousClassesQty'
